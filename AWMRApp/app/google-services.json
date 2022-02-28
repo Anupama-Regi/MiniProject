@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800361373403",
+    "project_id": "awmrapp",
+    "storage_bucket": "awmrapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800361373403:android:b539a615f79bd0031d36fe",
+        "android_client_info": {
+          "package_name": "com.example.awmrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800361373403-7v8m8nkp40kn6c5liup7blqu1q2lof0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDMD8NOupY1uQwoUXb6pmnHShUXaUtR_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800361373403-7v8m8nkp40kn6c5liup7blqu1q2lof0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

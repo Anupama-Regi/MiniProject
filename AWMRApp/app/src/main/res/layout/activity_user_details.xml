@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+        <TextView
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="Previous Reading"/>
+        <EditText
+            android:id="@+id/prevreading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:editable="false"
+            android:ems="10"
+            tools:ignore="Deprecated" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#ffffff"/>
+        <TextView
+            android:id="@+id/present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present Reading"
+            android:layout_marginLeft="100dp" />
+        <EditText
+            android:id="@+id/presreading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="#ffffff"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:layout_marginLeft="100dp" />
+        <TextView
+            android:id="@+id/ratevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Rs. 8.0"
+            android:ems="10" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:layout_marginLeft="100dp" />
+    <TextView
+        android:id="@+id/totalvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ffffff"/>
+    <Button
+        android:id="@+id/BtnNext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnDetect"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:text="Bill"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/teal" />
+    <!--<Button
+        android:id="@+id/BtnNext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnDetect"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/teal" />-->
+
+    </LinearLayout>
