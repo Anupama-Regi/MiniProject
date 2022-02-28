@@ -1,0 +1,32 @@
+com/example/awmrapp/MainActivity.java
+ com.example.awmrapp.MainActivity
+ com.example.awmrapp.MainActivity$1
+ com.example.awmrapp.MainActivity$2
+ com.example.awmrapp.MainActivity$2$1
+ com.example.awmrapp.MainActivity$3
+ com.example.awmrapp.MainActivity$4
+ com.example.awmrapp.MainActivity$4$1
+com/example/awmrapp/ScannerActivity.java
+ com.example.awmrapp.ScannerActivity
+ com.example.awmrapp.ScannerActivity$1
+ com.example.awmrapp.ScannerActivity$2
+ com.example.awmrapp.ScannerActivity$3
+ com.example.awmrapp.ScannerActivity$4
+ com.example.awmrapp.ScannerActivity$5
+com/example/awmrapp/Login_page.java
+ com.example.awmrapp.Login_page
+com/example/awmrapp/MainActivity_ocr1.java
+ com.example.awmrapp.MainActivity_ocr1
+ com.example.awmrapp.MainActivity_ocr1$1
+com/example/awmrapp/BuildConfig.java
+ com.example.awmrapp.BuildConfig
+com/example/awmrapp/user_register.java
+ com.example.awmrapp.user_register
+ com.example.awmrapp.user_register$1
+ com.example.awmrapp.user_register$1$1
+ com.example.awmrapp.user_register$1$1$1
+com/example/awmrapp/UserDetails.java
+ com.example.awmrapp.UserDetails
+ com.example.awmrapp.UserDetails$1
+com/example/awmrapp/User.java
+ com.example.awmrapp.User
